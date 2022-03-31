@@ -1,0 +1,28 @@
+{
+  "name": "check-deadline",
+  "type": "module",
+  "version": "1.0.3",
+  "description": "npm module for deadline checking",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "deadline"
+  ],
+  "author": "ai86109",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^27.5.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.8",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1"
+  }
+}
