@@ -1,7 +1,7 @@
 {
   "name": "check-deadline",
   "type": "module",
-  "version": "1.0.4",
+  "version": "1.0.4-development",
   "description": "npm module for deadline checking",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,9 @@
   "devDependencies": {
     "@babel/core": "^7.17.8",
     "@babel/preset-env": "^7.16.11",
-    "babel-jest": "^27.5.1"
+    "@semantic-release/changelog": "^6.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "babel-jest": "^27.5.1",
+    "semantic-release": "^19.0.2"
   }
 }
