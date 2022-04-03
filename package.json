@@ -1,7 +1,7 @@
 {
   "name": "check-deadline",
   "type": "module",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "deadline checking",
   "main": "index.js",
   "scripts": {
