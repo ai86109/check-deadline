@@ -60,7 +60,7 @@ describe('three argument', () => {
     expect(() => isDeadlineOver(first_correct_new, second_incorrect, third_incorrect)).toThrowError('Please follow the format, e.g. 05:07')
   })
   it(`3rd argument's format is incorrect, and 2nd or 3rd argument's format is correct`, () => {
-    expect(() => isDeadlineOver(first_correct_new, second_correct, third_incorrect)).toThrowError('Please check your input is lower than 16 and greater than -16')
+    expect(() => isDeadlineOver(first_correct_new, second_correct, third_incorrect)).toThrowError('Please check your input is between 16 and -16')
   })
   it(`All argument's format is incorrect`, () => {
     expect(() => isDeadlineOver(first_incorrect_new, second_incorrect, third_incorrect)).toThrowError('Please follow the format, e.g. 2022-03-04')

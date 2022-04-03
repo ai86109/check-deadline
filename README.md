@@ -34,10 +34,10 @@ console.log(isCampaignOver) // false
 ```
 
 - 1st argument(Date) is required
-- 2nd, 3rd argument is option
-  - 2nd parameter default is 23:59
-  - 3rd parameter default is 8（Taiwan Standard Time, UTC+8）
-    - Input value should lower than 16, and greater than -16(positive sign is unnecessary)
+- 2nd, 3rd argument is optional
+  - Default 2nd parameter is 23:59
+  - Default 3rd parameter is 8（Taiwan Standard Time, UTC+8）
+    - Input value should between 16 and -16 (positive sign is unnecessary)
 
 ## Dependency
 

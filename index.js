@@ -8,7 +8,7 @@ function isDeadlineOver(date, time = '23:59', timezone = 8) {
   if(arguments.length < 1) throw new Error('The isDeadlineOver function require at least 1 parameter')
   if(!regex_date.test(date)) throw new Error('Please follow the format, e.g. 2022-03-04')
   if(!regex_time.test(time)) throw new Error('Please follow the format, e.g. 05:07')
-  if(!regex_timezone.test(timezone)) throw new Error('Please check your input is lower than 16 and greater than -16')
+  if(!regex_timezone.test(timezone)) throw new Error('Please check your input is between 16 and -16')
 
   const deadline = date + 'T' + time
   const cuttent_time = moment().utcOffset(timezone).format('YYYY-MM-DDTHH:mm')
